@@ -1,0 +1,2 @@
+# master_page
+asp_net_core_web_app_master_page
