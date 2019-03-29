@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="Master_Page.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+		<style type="text/css">
+			.auto-style1 {
+				width: 590px;
+				height: 393px;
+			}
+			.auto-style2 {
+				width: 900px;
+				border: 1px solid #00FFFF;
+				background-color: #C0C0C0;
+			}
+			.auto-style3 {
+				width: 4000px;
+				height: 3000px;
+			}
+			.auto-style4 {
+				width: 800px;
+				height: 533px;
+			}
+	</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            	<p>
+								<img class="auto-style1" src="Images/0266554465.jpeg" /></p>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+		<table align="center" class="auto-style2">
+			<tr>
+				<td>
+					<img alt="alt1" class="auto-style3" src="Images/fujifilm-x30.jpg" /></td>
+			</tr>
+			<tr>
+				<td>
+					<img alt="alt2" class="auto-style4" src="Images/nikon-d600-hdr.jpg" /></td>
+			</tr>
+		</table>
+</body>
+</html>
